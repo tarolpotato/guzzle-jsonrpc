@@ -1,7 +1,16 @@
 {
-    "name": "graze/guzzle-jsonrpc",
+    "name": "tarolpotato/guzzle-jsonrpc",
     "description": "JSON-RPC 2.0 client for Guzzle",
-    "keywords": ["guzzle", "guzzlehttp", "http", "json", "json-rpc", "jsonrpc", "ring", "rpc"],
+    "keywords": [
+        "guzzle",
+        "guzzlehttp",
+        "http",
+        "json",
+        "json-rpc",
+        "jsonrpc",
+        "ring",
+        "rpc"
+    ],
     "homepage": "https://github.com/graze/guzzle-jsonrpc",
     "license": "MIT",
     "type": "library",
@@ -20,7 +29,9 @@
         }
     ],
     "autoload": {
-        "files": ["src/functions_include.php"],
+        "files": [
+            "src/functions_include.php"
+        ],
         "psr-4": {
             "Graze\\GuzzleHttp\\JsonRpc\\": "src"
         }
@@ -31,8 +42,8 @@
         }
     },
     "require": {
-        "php": ">=5.5|^7.0",
-        "guzzlehttp/guzzle": "^6.0",
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^7.0",
         "guzzlehttp/promises": "^1.0",
         "psr/http-message": "^1.0"
     },
